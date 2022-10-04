@@ -1,5 +1,5 @@
 ---
-title : 데이터, 빅데이터
+title : Data science - 1 데이터, 빅데이터
 date : 2022-10-04 20:39:00 +09:00
 categories : [Data Science]
 tags : [Data Science, Data, BigData]
