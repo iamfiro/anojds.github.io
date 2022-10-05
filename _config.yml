@@ -12,14 +12,12 @@ baseurl: ''
 # otherwise, the layout language will use the default value of 'en'.
 lang: ko-KR
 
-# Additional parameters for datetime localization, optional. › https://github.com/iamkun/dayjs/tree/dev/src/locale
 prefer_datetime_locale:
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
 timezone: Asia/Seoul
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
-# ↓ --------------------------
 
 title: anojds                          # the main title
 
@@ -75,17 +73,10 @@ google_analytics:
 #
 theme_mode:   # [light|dark]
 
-# The CDN endpoint for images.
-# Notice that once it is assigned, the CDN url
-# will be added to all image (site avatar & posts' images) paths starting with '/'
-#
-# e.g. 'https://cdn.com'
 img_cdn: 'https://raw.githubusercontent.com/cotes2020/chirpy-images/main'
 
-# the avatar on sidebar, support local or CORS resources
 avatar: 'https://pbs.twimg.com/profile_images/1451012283795009545/xM2RR9VZ_400x400.jpg'
 
-# boolean type, the global switch for ToC in posts.
 toc: true
 
 comments:
@@ -95,8 +86,8 @@ comments:
     shortname:    # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
   # utterances settings › https://utteranc.es/
   utterances:
-    repo:         # <gh-username>/<repo>
-    issue_term:   # < url | pathname | title | ...>
+    repo: anojds/comment-blog
+    issue_term: title
   # Giscus options › https://giscus.app
   giscus:
     repo:             # <gh-username>/<repo>
